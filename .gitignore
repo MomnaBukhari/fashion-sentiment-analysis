@@ -1,4 +1,17 @@
+# Python environment
 venv/
 __pycache__/
+*.pyc
+
+
+# Environment variables 
 .env
+
+
+# Instaloader session files
+*.session
+*.jsonl
+
+
+# Output data
 data/raw/
