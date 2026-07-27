@@ -37,10 +37,17 @@ Name:
 Instagram Hashtag Scraping
 
 Goal:
-Collect Instagram posts from hashtag pages.
+Collect Instagram posts from hashtag pages and extract textual metadata.
 
 Result:
-PENDING
+PARTIAL SUCCESS
+
+Output:
+data/raw/ootd_posts_full.json
 
 Notes:
-Implementation not started.
+Successfully navigated to the Instagram hashtag page.
+Successfully collected the first 10 post URLs.
+Successfully visited each collected post.
+Successfully generated a structured JSON output file.
+Post caption and username extraction was not reliable because Instagram's dynamic page structure prevented the Selenium selectors from consistently locating the required elements.
