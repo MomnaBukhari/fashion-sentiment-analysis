@@ -33,7 +33,7 @@ A synthetic dataset that mimics Selenium + BeautifulSoup output with
 - "scraped_at": "", ------------------------------- Not Useful -  
 - "collection_method": "selenium_beautifulsoup" --- Not Useful -  
 
-# Which columns will actually enter the model?
+# Which columns will actually enter the model in my opinion?
 caption
 language
 sentiment

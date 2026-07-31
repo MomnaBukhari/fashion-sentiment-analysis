@@ -28,3 +28,5 @@ RAW_DATA = RAW_DATA_DIR / "fashion_posts_raw.json"
 # ----------------------------
 # Output files
 # ----------------------------
+
+CLEANED_DATA = CLEANED_DATA_DIR / "fashion_posts_cleaned.csv"
