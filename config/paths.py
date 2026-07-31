@@ -18,6 +18,7 @@ RAW_DATA_DIR = DATA_DIR / "raw"
 CLEANED_DATA_DIR = DATA_DIR / "cleaned"
 FEATURE_DATA_DIR = DATA_DIR / "features"
 STATS_DATA_DIR = DATA_DIR / "stats"
+FEATURE_DATA = PROJECT_ROOT / "data" / "features" / "fashion_features.csv"
 
 # ----------------------------
 # Input files

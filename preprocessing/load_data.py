@@ -19,8 +19,33 @@ class DataLoader:
             raise FileNotFoundError(
                 f"File not found: {self.file_path}"
             )
-        with open(self.file_path, "r", encoding="utf-8") as file:
+
+        with open(
+            self.file_path,
+            "r",
+            encoding="utf-8"
+        ) as file:
+
             data = json.load(file)
         df = pd.DataFrame(data)
         print("Dataset successfully loaded.")
+
+        return df
+
+
+    # Used while feature engineering to load the cleaned dataset from CSV file.
+    def load_csv(self):
+
+        if not self.file_path.exists():
+            raise FileNotFoundError(
+                f"File not found: {self.file_path}"
+            )
+
+        df = pd.read_csv(
+            self.file_path,
+            encoding="utf-8"
+        )
+
+        print("CSV dataset successfully loaded.")
+
         return df
